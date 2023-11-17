@@ -1,0 +1,16 @@
+Objects are important data types in javascript. Objects are different than primitive datatypes (i.e. number, string, boolean, etc.). Primitive data types contain one value but Objects can hold many values in form of Key: value pair. These keys can be variables or functions and are called properties and methods, respectively, in the context of an object.
+
+Every object has some property associated with some value. These values can be accessed using these properties associated with them.
+
+The syntax for adding a property to an object is:
+ObjectName.ObjectProperty = propertyValue;
+
+The syntax for deleting a property from an object is:
+delete ObjectName.ObjectProperty;
+
+The syntax to access a property from an object is:
+objectName.property        
+           //or
+objectName["property”]     
+           //or
+objectName[expression] 
